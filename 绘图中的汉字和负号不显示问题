@@ -1,0 +1,11 @@
+# 汉字不显示问题
+plt.rcParams['font.sans-serif'] = ['Arial Unicode MS']
+# 负号不显示
+plt.rcParams['axes.unicode_minus'] = False
+plt.xlabel('时间/s')
+plt.ylabel('波长/nm')
+# 设置网格线
+plt.grid(color='0.7', linestyle='--', linewidth=1)
+# 设置标题
+plt.title('波长——时间曲线')
+plt.show()
